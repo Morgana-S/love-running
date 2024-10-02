@@ -67,19 +67,19 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top:100%;
+    top: 100%;
 }
 
 /* Nav Toggle */
-#nav-toggle:checked~nav{
-    display:block;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -99,6 +99,7 @@ footer {
 
 /* Media Query - Tablets and Larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -109,15 +110,15 @@ footer {
 
     }
 
-    #menu{
+    #menu {
         display: flex;
     }
 
-    #menu > li{
+    #menu>li {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label{
+    .nav-toggle-label {
         display: none;
     }
 
@@ -128,8 +129,17 @@ footer {
     }
 
     /* Main Content */
-    main{
+    main {
         margin-top: 79px;
     }
 
+}
+
+/* Media Query - Laptops and Larger (992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Menu Hover Indicator */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
