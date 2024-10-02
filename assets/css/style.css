@@ -28,7 +28,7 @@ h3 {
 }
 
 .hidden-heading {
-    display:none;
+    display: none;
 }
 
 /* Header */
@@ -171,15 +171,15 @@ main {
 
 /* Meetup Times Section */
 
-#times{
+#times {
     background: url(../images/dublin-city.webp) no-repeat center center / cover;
     display: flex;
     flex-wrap: wrap;
 }
 
-#times div{
+#times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     padding: 15px;
     /* Ensures Divs do not wrap on screens less than 400px wide. Each div will expand to fill the available space on its row */
@@ -189,9 +189,20 @@ main {
     border: 2px solid white;
 }
 
-#times h3{
+#times h3 {
     color: #fafafa;
 }
+
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 
 /* Footer */
 #social-networks {
