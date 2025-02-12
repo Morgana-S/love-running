@@ -8,3 +8,8 @@ assignees: ''
 ---
 
 So that I can **receive a benefit** as a **type of user**, **goal or feature**.
+
+## Acceptance Criteria
+- Acceptance Criteria 1:
+- Acceptance Criteria 2:
+- Acceptance Criteria 3:
